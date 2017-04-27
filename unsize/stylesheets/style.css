@@ -1,0 +1,45 @@
+
+.logo {
+  font-size: 250px;
+  padding-left: 10%;
+  font-family: sans-serif;
+}
+
+
+body {
+  color: white;
+
+
+background: linear-gradient(270deg, #fb5b00, #fbeb00, #fb7100, #fb00f2);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 29s ease infinite;
+-moz-animation: AnimationName 29s ease infinite;
+animation: AnimationName 29s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+
+
+
+
+
+/*.comingsoon {
+  font-size: 50px;
+  text-align: right;
+  font-family: sans-serif;
+}*/
