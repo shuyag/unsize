@@ -27,6 +27,11 @@
   padding-right: 10%;
 }
 
+.email:focus {
+    outline: none;
+}
+
+
 .email {
   font-family: sans-serif;
   font-style: italic;
