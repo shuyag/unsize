@@ -23,9 +23,24 @@
   font-style:italic;
 }
 
-.images {
+
+.parentpic {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+
+.vicpic {
+  position: relative;
   padding-left: 10%;
   padding-top: 7%;
+}
+
+.ktpic {
+  position: absolute;
+  padding-left: 46%;
+  padding-top: 3%;
 }
 
 .email:focus {
