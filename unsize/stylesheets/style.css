@@ -1,4 +1,7 @@
 
+
+/*styling for the unsize text */
+
 .logo {
   font-size: 100px;
   padding-left: 10%;
@@ -8,6 +11,9 @@
   padding-top: 10%;
   position: relative;
 }
+
+
+/*styling for the whatif question*/
 
 .whatif {
   padding-left: 10%;
@@ -19,13 +25,8 @@
 }
 
 
-.comingsoon {
-  font-family: sans-serif;
-  padding-left: 15%;
-  font-style:italic;
-}
 
-
+/*attempt to make the images look like they are collaged and ontop of each other*/
 .parentpic {
   position: relative;
   top: 0;
@@ -39,17 +40,20 @@
   padding-top: 7%;
 }
 
+
+
 .ktpic {
   position: absolute;
   padding-left: 46%;
   padding-top: 3%;
 }
 
+/*when email input is clicked*/
 .email:focus {
     outline: none;
 }
 
-
+/*textbox for the email input*/
 .email {
   font-family: sans-serif;
   font-style: italic;
@@ -60,8 +64,8 @@
   position: relative;
 }
 
-
-
+/*
+email interagtion when hovering over*/
 .email.hover {
   border-color: black;
   transition: all 0.4s ease 0s;
@@ -118,6 +122,7 @@ body {
   color: white;
 
 
+/*background gradient animation*/
 background: linear-gradient(270deg, #fb5b00, #fbeb00, #fb7100, #fb00f2);
 background-size: 800% 800%;
 
